@@ -10,7 +10,7 @@ import pythonIcon from "../../assets/python.svg";
 import mongodbIcon from "../../assets/mongodb.svg";
 import tailwindIcon from "../../assets/tailwind-css.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import profileImg from "../../assets/profile.jpg";
+import profileImg from "../../assets/profile0.jpg";
 
 export function About() {
   return (

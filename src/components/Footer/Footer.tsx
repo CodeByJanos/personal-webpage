@@ -11,9 +11,9 @@ import facebookIcon from '../../assets/facebook.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="#" className="logo">
+      <a href="www.janosbalogh.com" className="logo">
         <span>www.janos</span>
-        <span>balogh.in</span>
+        <span>balogh.com</span>
       </a>
       <div>
         <p>
