@@ -9,30 +9,27 @@ export function Project() {
       {/* <div className="alert alert-warning" role="alert">
         Currently no project available!
       </div> */}
-      <div className="projects">
-        <ScrollAnimation animateIn="flipInX">
-          {data.map((project, index) => (
-            <a
-              href="https://mern-auth-42kq.onrender.com"
-              target="_blank"
-              rel="noreferrer"
-              key={index}
-              className="video-link"
-            >
-              <div className="video-container">
-                <div className="video-description">
-                  <h2>{project.name}</h2>
-                  <p>{project.description}</p>
-                </div>
-                <video width="560" height="315" autoPlay loop muted>
-                  <source src={project.video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+      <ScrollAnimation className="projects" animateIn="flipInX">
+        {data.map((project, index) => (
+          <a
+            href="https://mern-auth-42kq.onrender.com"
+            target="_blank"
+            rel="noreferrer"
+            key={index}
+            className="project-link"
+          >
+            <div className="project-card">
+              <div className="project-description">
+                <h3>{project.name}</h3>
+                <p>{project.description}</p>
               </div>
-            </a>
-          ))}
-        </ScrollAnimation>
-      </div>
+              <video width="550" height="200" autoPlay loop muted>
+                <source src={project.video} type="video/mp4" />
+              </video>
+            </div>
+          </a>
+        ))}
+      </ScrollAnimation>
     </Container>
   );
 }

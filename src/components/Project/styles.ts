@@ -18,14 +18,30 @@ export const Container = styled.section`
     overflow: hidden;
   }
 
-  /* .alert {
+  .project-link {
+    color: #fff;
+    transition: 0.3s;
+    transform: scale(1);
+    padding: 10px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .project-link h3 {
+    margin-bottom: 10px;
+    color: var(--green);
+  }
+
+  .project-card {
     text-align: center;
-    font-size: 2rem;
-    background-color: #FFEA20;
-    padding: 10px 5px;
-    border-radius: 20px;
-    color: var(--black);
-  } */
+    padding: 0 5px;
+  }
+
+  .project-card video {
+    width: 100%;
+    margin-top: 10px;
+  }
 
 
   @media (max-width: 960px){
@@ -39,4 +55,13 @@ export const Container = styled.section`
       grid-template-columns: 1fr;
     }
   }
+
+    /* .alert {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #FFEA20;
+    padding: 10px 5px;
+    border-radius: 20px;
+    color: var(--black);
+  } */
 `

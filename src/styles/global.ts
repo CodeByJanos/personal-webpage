@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
+
     &.light{
 
       body{
@@ -36,6 +37,11 @@ export const GlobalStyle = createGlobalStyle`
         }
       }
 
+      .project-card {
+        color: var(--black);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
       footer.footer{
         transition: 0.5s;
         background-color: rgba(0,0,0,0.1);
@@ -56,8 +62,6 @@ export const GlobalStyle = createGlobalStyle`
 
     }
   }
-
-
 
   ul, li {
     text-decoration: none;
@@ -118,6 +122,4 @@ export const GlobalStyle = createGlobalStyle`
     //   color: var(--green);
     // }
   }
-  
-
 `;
