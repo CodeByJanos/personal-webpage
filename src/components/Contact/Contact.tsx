@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import emailIcon from "../../assets/email-icon.svg";
+import gmail from "../../assets/gmail.svg";
 import phoneIcon from "../../assets/phone-icon.svg"
 import { Form } from "../Form/Form";
 
@@ -13,12 +13,12 @@ export function Contact(){
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:Hello@vinayaksingh.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:Hello@vinayaksingh.com">Hello@vinayaksingh.com</a>
+        <a href="janos.balogh870@gmail.com"><img src={gmail} alt="Email" /></a> 
+          <a href="mailto:janos.balogh870@gmail.com">janos.balogh870@gmail.com</a>
         </div>
         <div>
-        <a href="tel:+919630576848"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+919630576848">(+91) 9630576848</a>
+        <a href="tel:+36501345572"><img src={phoneIcon} alt="Phone No" /></a>
+          <a href="tel:+36501345572">(+36) 501345572</a>
         </div>  
       </div>
       <Form></Form>

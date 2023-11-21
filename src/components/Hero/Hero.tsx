@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-import illustration from "../../assets/—Pngtree—web development illustration modern_4484302.png";
+import illustration from "../../assets/web-development-illustration.png";
 import { NavHashLink } from "react-router-hash-link";
 import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";

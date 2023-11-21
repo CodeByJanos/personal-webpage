@@ -44,8 +44,8 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
             The world of information technology is constantly evolving, and I am
-            open to exploring new opportunities. I enjoy learning and tackling
-            challenges to stay up-to-date with the latest technolog.
+            open to exploring new opportunities. I Enjoy learning and tackling
+            challenges to stay up-to-date with the latest technologies.
           </p>
         </ScrollAnimation>
 
