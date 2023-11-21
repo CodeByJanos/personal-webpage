@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/personal-webpage/static/css/main.039bf95e.css",
-    "main.js": "/personal-webpage/static/js/main.2008fe53.js",
+    "main.js": "/personal-webpage/static/js/main.03bf39aa.js",
+    "static/media/mern-auth.mp4": "/personal-webpage/static/media/mern-auth.01afcfefc43642035ecd.mp4",
     "static/media/Hello.gif": "/personal-webpage/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/profile0.jpg": "/personal-webpage/static/media/profile0.cb0c8768d7b89c2d9006.jpg",
     "static/media/illustration1.png": "/personal-webpage/static/media/illustration1.469c523ffdacab560c85.png",
@@ -25,10 +26,10 @@
     "static/media/gmail.svg": "/personal-webpage/static/media/gmail.f7f4f60d3b0f8df2280205cb98b2b5ae.svg",
     "static/media/facebook.svg": "/personal-webpage/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.039bf95e.css.map": "/personal-webpage/static/css/main.039bf95e.css.map",
-    "main.2008fe53.js.map": "/personal-webpage/static/js/main.2008fe53.js.map"
+    "main.03bf39aa.js.map": "/personal-webpage/static/js/main.03bf39aa.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.2008fe53.js"
+    "static/js/main.03bf39aa.js"
   ]
 }
