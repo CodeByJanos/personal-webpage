@@ -18,14 +18,15 @@ export const Container = styled.section`
     overflow: hidden;
   }
 
-  .alert {
+  /* .alert {
     text-align: center;
     font-size: 2rem;
     background-color: #FFEA20;
     padding: 10px 5px;
     border-radius: 20px;
     color: var(--black);
-  }
+  } */
+
 
   @media (max-width: 960px){
     .projects{
