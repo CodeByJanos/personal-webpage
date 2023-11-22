@@ -12,7 +12,7 @@ export function Project() {
       <ScrollAnimation className="projects" animateIn="flipInX">
         {data.map((project, index) => (
           <a
-            href="https://mern-auth-42kq.onrender.com"
+            href="https://mern-auth-zmyu.onrender.com"
             target="_blank"
             rel="noreferrer"
             key={index}
