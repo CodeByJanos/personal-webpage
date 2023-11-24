@@ -6,9 +6,6 @@ export function Project() {
   return (
     <Container id="project">
       <h2>My Projects</h2>
-      {/* <div className="alert alert-warning" role="alert">
-        Currently no project available!
-      </div> */}
       <ScrollAnimation className="projects" animateIn="flipInX">
         {data.map((project, index) => (
           <a

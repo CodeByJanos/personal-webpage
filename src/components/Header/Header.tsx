@@ -1,15 +1,23 @@
 import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function Header() {
   const [isActive, setActive] = useState(false);
+  const [isLightTheme, setLightTheme] = useState(
+    localStorage.getItem("isLightTheme") === "true"
+  );
 
   function toggleTheme() {
-    let html = document.getElementsByTagName("html")[0];
-    html.classList.toggle("light");
+    setLightTheme((prevTheme) => !prevTheme);
   }
+  
+  useEffect(() => {
+    const html = document.getElementsByTagName("html")[0];
+    html.classList.toggle("light", isLightTheme);
+    localStorage.setItem("isLightTheme", isLightTheme.toString());
+  }, [isLightTheme]);
 
   function closeMenu() {
     setActive(false);
@@ -24,6 +32,7 @@ export function Header() {
         </HashLink>
 
         <input
+          checked={isLightTheme}
           onChange={toggleTheme}
           className="container_toggle"
           type="checkbox"
