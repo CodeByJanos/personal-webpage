@@ -7,13 +7,14 @@ import githubIcon from '../../assets/github.svg'
 import instagramIcon from '../../assets/instagram.svg'
 // import discordIcon from '../../assets/discord.png'
 import facebookIcon from '../../assets/facebook.svg'
+import favicon from "../../assets/favicon-32x32.png"
 
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="www.janosbalogh.com" className="logo">
-        <span>www.janos</span>
-        <span>balogh.com</span>
+      <a href="www.janosbalogh.me" className="logo">
+        <img src={favicon} alt="webicon" />
+        <span>www.janosbalogh.me</span>
       </a>
       <div>
         <p>
