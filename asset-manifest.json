@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-webpage/static/css/main.039bf95e.css",
-    "main.js": "/personal-webpage/static/js/main.31bdec86.js",
+    "main.js": "/personal-webpage/static/js/main.6955374f.js",
     "static/media/imageFinderVideo.mp4": "/personal-webpage/static/media/imageFinderVideo.f99bb569d50f65f3bf71.mp4",
     "static/media/mern-auth.mp4": "/personal-webpage/static/media/mern-auth.01afcfefc43642035ecd.mp4",
     "static/media/todoProjectVideo.mp4": "/personal-webpage/static/media/todoProjectVideo.2e7e451e11d7b4ee7849.mp4",
@@ -28,10 +28,10 @@
     "static/media/gmail.svg": "/personal-webpage/static/media/gmail.f7f4f60d3b0f8df2280205cb98b2b5ae.svg",
     "static/media/facebook.svg": "/personal-webpage/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.039bf95e.css.map": "/personal-webpage/static/css/main.039bf95e.css.map",
-    "main.31bdec86.js.map": "/personal-webpage/static/js/main.31bdec86.js.map"
+    "main.6955374f.js.map": "/personal-webpage/static/js/main.6955374f.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.31bdec86.js"
+    "static/js/main.6955374f.js"
   ]
 }
