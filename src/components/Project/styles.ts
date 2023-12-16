@@ -36,11 +36,11 @@ export const Container = styled.section`
   .project-card {
     width: 100%;
     text-align: center;
-    padding: 0;
   }
 
   .project-card video {
     width: 100%;
+    height: auto;
     margin-top: 10px;
   }
 
