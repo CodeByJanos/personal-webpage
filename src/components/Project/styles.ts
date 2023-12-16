@@ -34,8 +34,9 @@ export const Container = styled.section`
   }
 
   .project-card {
+    width: 100%;
     text-align: center;
-    padding: 0 5px;
+    padding: 0;
   }
 
   .project-card video {
@@ -56,12 +57,4 @@ export const Container = styled.section`
     }
   }
 
-    /* .alert {
-    text-align: center;
-    font-size: 2rem;
-    background-color: #FFEA20;
-    padding: 10px 5px;
-    border-radius: 20px;
-    color: var(--black);
-  } */
 `
