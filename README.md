@@ -9,4 +9,4 @@ This is my website to introduce myself, here I put my skills, portfolio, and con
 - Typescript
 - Styled Components
  
- [Visit my website](https://janos870.github.io/personal-webpage/)
+ [Visit my website](https://www.janosbalogh-dev.me/)
