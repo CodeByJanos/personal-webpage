@@ -22,11 +22,11 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
             Hi there! Allow me to introduce myself: my name is Janos, and I
-            specialize in web development and mobile applications. Shaping the
-            online world and enhancing user experiences is my passion. In this
-            dynamic field, I utilize technologies such as JavaScript-based
-            frontend and backend development, with a strong focus on React and
-            Next.js frameworks.
+            specialize in web development. Shaping the online world and
+            enhancing user experiences is my passion. In this dynamic field, I
+            utilize technologies such as <strong>JavaScript-based </strong>
+            frontend and backend development, with a strong focus on{" "}
+            <strong>React</strong> framework.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -36,7 +36,8 @@ export function About() {
         >
           <p>
             I embarked on my programming journey in 2 years ago, and I've been
-            passionately improving my skills ever since. Python and the Django
+            passionately improving my skills ever since. <strong>Python </strong>
+            and the <strong> Django </strong>
             web framework are also in my toolkit, allowing me to create exciting
             and functional web applications.
           </p>
