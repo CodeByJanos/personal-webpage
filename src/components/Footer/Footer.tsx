@@ -14,7 +14,7 @@ export function Footer() {
     <Container className="footer">
       <a href="www.janosbalogh.me" className="logo">
         <img src={favicon} alt="webicon" />
-        <span>www.janosbalogh.me</span>
+        <span>www.janosbalogh-dev.me</span>
       </a>
       <div>
         <p>

@@ -1,26 +1,28 @@
-import mernAuthVideo from "../../assets/mern-auth.mp4";
-import imageFinderVideo from "../../assets/imageFinderVideo.mp4"
-import todoProjectVideo from "../../assets/todoProjectVideo.mp4"
+import authProjectImg from "../../assets/auth_project.png"
+import blogProjectImg from "../../assets/blog_cover.png"
+import passManegerImg from "../../assets/pass_maneger_cover.png"
 
 export const data = [
   {
     name: "MERN AUTH",
     description:
     "This project was developed using the MERN stack and features a comprehensive authentication system, allowing users to update and delete their profiles. Additionally, Google authentication is integrated to enhance user login security and convenience.",
-    video: mernAuthVideo,
+    img: authProjectImg,
     url: "https://mern-auth-zmyu.onrender.com"
   },
   {
-    name: "TODO-LIST",
+    name: "PERSONAL BLOG",
     description:
-      "This web app represents my first project, featuring a todo list built with Node.js, Express, and EJS templates. Prioritizing simplicity, it provides seamless task management functionality.",
-    video: todoProjectVideo,
-    url: "https://todolist-ltv6.onrender.com/"
+    "I'm currently working on a project that started as a personal blog. I'm striving to bring simplicity to it, as I prefer avoiding unnecessary complexities. However, I'm also making an effort to provide a contemporary and modern user interface.",
+    img: blogProjectImg,
+    url: "https://github.com/janos870/django-blog"
   },
   {
-    name: "IMAGE FINDER",
-    description:"This web application, designed as a practical exercise, facilitates image searching with a focus on simplicity, functionality, and utility. Integration of an external backend API ensures seamless image search capabilities within the application.",
-    video: imageFinderVideo,
-    url: "https://janos870.github.io/Image-List/"
+    name: "PASSWORD MANEGER",
+    description:"This is a useful offline app with a Python Tkinter interface. It's my second non-web service project. Users can store email addresses and generated passwords for their websites, ensuring security and easy credential management.",
+    img: passManegerImg,
+    url: "https://github.com/janos870/password-maneger"
   },
 ];
+
+
