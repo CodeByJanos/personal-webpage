@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.039bf95e.css",
-    "main.js": "/static/js/main.025ecb0d.js",
-    "static/media/imageFinderVideo.mp4": "/static/media/imageFinderVideo.f99bb569d50f65f3bf71.mp4",
-    "static/media/mern-auth.mp4": "/static/media/mern-auth.01afcfefc43642035ecd.mp4",
-    "static/media/todoProjectVideo.mp4": "/static/media/todoProjectVideo.2e7e451e11d7b4ee7849.mp4",
+    "main.js": "/static/js/main.93a44dac.js",
+    "static/media/blog_cover.png": "/static/media/blog_cover.55371c6ca6689f90f26b.png",
     "static/media/Hello.gif": "/static/media/Hello.d93720933c608f6178fb.gif",
+    "static/media/auth_project.png": "/static/media/auth_project.580330c33b393a6a0807.png",
+    "static/media/pass_maneger_cover.png": "/static/media/pass_maneger_cover.521a6c7756fb64271c22.png",
     "static/media/profile0.jpg": "/static/media/profile0.cb0c8768d7b89c2d9006.jpg",
     "static/media/illustration1.png": "/static/media/illustration1.469c523ffdacab560c85.png",
     "static/media/sass-icon.svg": "/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
@@ -28,10 +28,10 @@
     "static/media/gmail.svg": "/static/media/gmail.f7f4f60d3b0f8df2280205cb98b2b5ae.svg",
     "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.039bf95e.css.map": "/static/css/main.039bf95e.css.map",
-    "main.025ecb0d.js.map": "/static/js/main.025ecb0d.js.map"
+    "main.93a44dac.js.map": "/static/js/main.93a44dac.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.025ecb0d.js"
+    "static/js/main.93a44dac.js"
   ]
 }
