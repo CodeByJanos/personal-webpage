@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
-
 export const Container = styled.section`
   margin-top: 15rem;
-  
-  h2{
+
+  h2 {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
@@ -15,11 +14,11 @@ export const Container = styled.section`
     opacity: 0.5;
     text-align: center;
   }
-  .projects{
+
+  .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    gap: 2rem;
     overflow: hidden;
   }
 
@@ -28,20 +27,22 @@ export const Container = styled.section`
     transition: 0.3s;
     transform: scale(1);
     padding: 10px;
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 
   .project-link h3 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: var(--green);
   }
 
   .project-card {
     width: 300px; /* Adjust the width as needed */
+    margin: auto;
     overflow: hidden;
     position: relative;
+    &:hover .project-description {
+      bottom: 0;
+      overflow: auto;
+    }
   }
   
   .project-card img {
@@ -60,15 +61,9 @@ export const Container = styled.section`
     padding: 5px 10px;
     transition: 0.3s ease-in-out;
   }
-  
-  .project-card:hover .project-description {
-    bottom: 0;
-    overflow: auto;
-  }
-  
 
-  @media (max-width: 960px){
-    .projects{
+  @media (max-width: 1025px) {
+    .projects {
       grid-template-columns: 1fr 1fr;
     }
     .project-intro {
@@ -76,13 +71,13 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 740px){
-    .projects{
+  @media (max-width: 740px) {
+    .projects {
       grid-template-columns: 1fr;
     }
     .project-intro {
       width: 98%;
     }
-  }
 
-`
+  }
+`;

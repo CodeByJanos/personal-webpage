@@ -6,11 +6,16 @@ export function Project() {
   return (
     <Container id="project">
       <h2>My Projects</h2>
-      <h3 className="project-intro">I showcase some of my projects on my website, most of which can be found on my GitHub. If you're curious about my code, visit my GitHub page. By clicking on the projects, you'll be redirected to their respective folders. Check them out; they involve a lot of effort.</h3>
+      <h3 className="project-intro">
+        I showcase some of my projects on my website, most of which can be found
+        on my GitHub. If you're curious about my code, visit my GitHub page. By
+        clicking on the projects, you'll be redirected to their respective
+        folders. Check them out; they involve a lot of effort.
+      </h3>
       <ScrollAnimation className="projects" animateIn="flipInX">
         {data.map((project, index) => (
           <a
-            href={project.url}           
+            href={project.url}
             target="_blank"
             rel="noreferrer"
             key={index}
