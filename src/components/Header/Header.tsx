@@ -2,6 +2,8 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState, useEffect } from "react";
+import cv  from "../../assets/cv_hu_janosbalogh.pdf";
+
 
 export function Header() {
   const [isActive, setActive] = useState(false);
@@ -54,7 +56,7 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={"..."} download className="buttonx`">
+          <a href={cv} download className="buttonx`">
             CV
           </a>
         </nav>
