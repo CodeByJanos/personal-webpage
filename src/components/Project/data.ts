@@ -1,5 +1,5 @@
 import authProjectImg from "../../assets/auth_project.png"
-import blogProjectImg from "../../assets/blog_cover.png"
+import blogProjectImg from "../../assets/webdevs-cover.png"
 import passManegerImg from "../../assets/pass_maneger_cover.png"
 
 export const data = [
@@ -11,9 +11,9 @@ export const data = [
     url: "https://mern-auth-zmyu.onrender.com"
   },
   {
-    name: "PERSONAL BLOG",
+    name: "WebDevs",
     description:
-    "I'm currently working on a project that started as a personal blog. I'm striving to bring simplicity to it, as I prefer avoiding unnecessary complexities. However, I'm also making an effort to provide a contemporary and modern user interface.",
+    "I'm currently working on a project that started as a web development portal. I'm striving to bring simplicity to it, as I prefer avoiding unnecessary complexities. However, I'm also making an effort to provide a contemporary and modern user interface.",
     img: blogProjectImg,
     url: "https://github.com/janos870/django-blog"
   },
