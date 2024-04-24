@@ -15,7 +15,7 @@ export const data = [
     description:
     "I'm currently working on a project that started as a web development portal. I'm striving to bring simplicity to it, as I prefer avoiding unnecessary complexities. However, I'm also making an effort to provide a contemporary and modern user interface.",
     img: blogProjectImg,
-    url: "https://github.com/janos870/django-blog"
+    url: "https://webdevs-5udt.onrender.com"
   },
   {
     name: "PASSWORD MANEGER",
