@@ -40,6 +40,25 @@ export const Container = styled.header`
 
   }
 
+  .switch-language-button {
+    background: none;
+    font-size: 2rem;
+    padding: 0.6rem;
+    color: #ffff;
+    position: relative;
+  }
+
+  .switch-language-button::before {
+    content: '';
+    position: absolute;
+    left: -0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 2rem;
+    background-color: #fff;
+  }
+
   .menu-container{
     cursor: pointer;
     padding: 0.6rem 0;

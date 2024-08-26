@@ -10,7 +10,7 @@ export const Container = styled.section`
   }
   .project-intro {
     width: 800px;
-    margin: auto;
+    margin: 40px auto;
     opacity: 0.5;
     text-align: center;
   }
