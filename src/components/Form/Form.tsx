@@ -4,6 +4,7 @@ import { toast, ToastContainer } from 'react-toastify'
 import ReCAPTCHA from 'react-google-recaptcha'    
 import { useEffect, useState } from 'react'
 import validator from 'validator'
+import { translate } from '../../i18n'
 
 export function Form() {
   const [state, handleSubmit] = useForm('xgegelqn')
@@ -40,7 +41,7 @@ export function Form() {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          Back to the top
+          {translate("form.backToTop")}
         </button>
         <ToastContainer />
       </ContainerSucces>
@@ -49,7 +50,7 @@ export function Form() {
 
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
+      <h2>{translate("form.title")}</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -64,7 +65,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Send a message to get started."
+          placeholder={translate("form.messagePlaceholder")}
           id="message"
           name="message"
           onChange={(e) => {
@@ -87,7 +88,7 @@ export function Form() {
           disabled={state.submitting || !validEmail || !message || !isHuman}
         >
 
-          Submit
+          {translate("form.submitButton")}
         </button>
       </form>
       <ToastContainer />

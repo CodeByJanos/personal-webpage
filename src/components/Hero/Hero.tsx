@@ -7,32 +7,28 @@ import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
 import facebookIcon from "../../assets/facebook.svg";
 import instagramIcon from "../../assets/instagram.svg";
-// import whatsapp from "../../assets/whatsapp.svg";
-import Hello from "../../assets/Hello.gif";
+import { translate } from "../../i18n";
 
 export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>
-            Hello <img src={Hello} alt="Hello" width="20px" />, I'm
-          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Janos Balogh</h1>
+          <h1>{translate("hero.name")}</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
+          <h3>{translate("hero.subtitle")}</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">2 Years of Experience</p>
+          <p className="small-resume">{translate("hero.smallResume")}</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">
-              Contact
+              {translate("hero.contact")}
             </NavHashLink>
           </BrowserRouter>
         </ScrollAnimation>
@@ -67,9 +63,6 @@ export function Hero() {
             >
               <img src={instagramIcon} alt="Instagram" />
             </a>
-            {/* <a href="" target="_blank" rel="noreferrer">
-              <img src={whatsapp} alt="Whatsapp" />
-            </a> */}
           </div>
         </ScrollAnimation>
       </div>
@@ -82,3 +75,4 @@ export function Hero() {
     </Container>
   );
 }
+

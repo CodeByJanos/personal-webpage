@@ -6,16 +6,34 @@
       "contact": "Kapcsolat"
     },
     "hero": {
-        
+      "name": "Balogh János",
+      "subtitle": "Full Stack Fejlesztő",
+      "smallResume": "2 év tapasztalat",
+      "contact": "Kapcsolat"
     },
     "about": {
-        
+      "title": "Rólam",
+      "intro": "Szia! Engedd meg, hogy bemutatkozzam: Janos vagyok, és webfejlesztésben szakosodtam. Az online világ formálása és a felhasználói élmények javítása a szenvedélyem. Ebben a dinamikus területen olyan technológiákat használok, mint a JavaScript alapú frontend és backend fejlesztés, különös figyelmet fordítva a React keretrendre.",
+      "journey": "Két éve kezdtem el a programozói utamat, és azóta szenvedéllyel fejlesztem a készségeimet. A Python és a Django webkeretrend is az eszköztáramban van, lehetővé téve számomra, hogy izgalmas és funkcionális webalkalmazásokat készítsek.",
+      "tech": "Az információs technológia világa folyamatosan fejlődik, és nyitott vagyok az új lehetőségek felfedezésére. Élvezem a tanulást és a kihívásokkal való megküzdést, hogy naprakész maradjak a legújabb technológiák terén.",
+      "skills": "Itt vannak a főbb készségeim:"
     },
-    "projects": {
-        
+    "project": {
+      "title": "Projektjeim",
+      "intro": "Bemutatom néhány projektet az oldalamon, amelyek többsége megtalálható a GitHubon. Ha kíváncsi vagy a kódjaimra, látogass el a GitHub oldalamra. A projektekre kattintva átirányítást kapsz a megfelelő mappákhoz. Nézd meg őket, sok munkát fektettem beléjük."
     },
     "contact": {
-        
+      "title": "Kapcsolat"
+    },
+    "form": {
+        "title": "Lépj kapcsolatba az űrlap segítségével",
+        "emailPlaceholder": "Email",
+        "messagePlaceholder": "Küldj egy üzenetet az induláshoz.",
+        "thanksMessage": "Köszönjük, hogy kapcsolatba léptél!",
+        "backToTop": "Vissza a tetejére",
+        "submitButton": "Küldés",
+        "emailError": "Email",
+        "messageError": "Üzenet"
     }
   }
   

@@ -2,6 +2,7 @@ import { Container } from "./styles";
 import gmail from "../../assets/gmail.svg";
 import phoneIcon from "../../assets/phone-icon.svg"
 import { Form } from "../Form/Form";
+import { translate } from "../../i18n";
 
 
 export function Contact(){
@@ -9,7 +10,7 @@ export function Contact(){
   return(
     <Container id="contact">
       <header>
-        <h2>Contact</h2>
+        <h2>{translate("contact.title")}</h2>
       </header>
       <div className="contacts">
         <div>

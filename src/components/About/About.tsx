@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import { translate } from "../../i18n";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -17,41 +18,24 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>{translate("about.title")}</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
-          <p>
-            Hi there! Allow me to introduce myself: my name is Janos, and I
-            specialize in web development. Shaping the online world and
-            enhancing user experiences is my passion. In this dynamic field, I
-            utilize technologies such as <strong>JavaScript-based </strong>
-            frontend and backend development, with a strong focus on{" "}
-            <strong>React</strong> framework.
-          </p>
+          <p>{translate("about.intro")}</p>
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
           delay={0.2 * 1000}
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
-          <p>
-            I embarked on my programming journey in 2 years ago, and I've been
-            passionately improving my skills ever since. <strong>Python </strong>
-            and the <strong> Django </strong>
-            web framework are also in my toolkit, allowing me to create exciting
-            and functional web applications.
-          </p>
+          <p>{translate("about.journey")}</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-            The world of information technology is constantly evolving, and I am
-            open to exploring new opportunities. I Enjoy learning and tackling
-            challenges to stay up-to-date with the latest technologies.
-          </p>
+          <p>{translate("about.tech")}</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+          <h3>{translate("about.skills")}:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">

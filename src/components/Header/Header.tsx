@@ -2,15 +2,16 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState, useEffect } from "react";
-import { translate, setLanguage } from "../../i18n";
 import cv from "../../assets/cv_hu_janosbalogh.pdf";
+import { useLanguage } from "../../context/LanguageContext"; 
+import { translate } from "../../i18n";
 
 export function Header() {
+  const { language, switchLanguage } = useLanguage();
   const [isActive, setActive] = useState(false);
   const [isLightTheme, setLightTheme] = useState(
     localStorage.getItem("isLightTheme") === "true"
   );
-  const [language, setLang] = useState<"en" | "hu">("en");
 
   function toggleTheme() {
     setLightTheme((prevTheme) => !prevTheme);
@@ -25,11 +26,6 @@ export function Header() {
   function closeMenu() {
     setActive(false);
   }
-
-  const switchLanguage = (lang: "en" | "hu") => {
-    setLanguage(lang);
-    setLang(lang);
-  };
 
   return (
     <Container className="header-fixed">
@@ -62,10 +58,11 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             {translate("header.contact")}
           </NavHashLink>
-          <a href={cv} download className="buttonx`">
+          <a href={cv} download className="buttonx">
             CV
           </a>
-          <button className="switch-language-button"
+          <button
+            className="switch-language-button"
             onClick={() => switchLanguage(language === 'en' ? 'hu' : 'en')}
           >
             {language === 'en' ? 'HU' : 'EN'}
@@ -85,3 +82,5 @@ export function Header() {
     </Container>
   );
 }
+
+
