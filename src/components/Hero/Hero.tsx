@@ -7,14 +7,14 @@ import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
 import facebookIcon from "../../assets/facebook.svg";
 import instagramIcon from "../../assets/instagram.svg";
-import { translate } from "../../i18n";
+import { useTranslate } from "../../i18n";
 
 export function Hero() {
+  const translate = useTranslate();
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
-        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp"></ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>{translate("hero.name")}</h1>
         </ScrollAnimation>
@@ -75,4 +75,3 @@ export function Hero() {
     </Container>
   );
 }
-

@@ -1,13 +1,13 @@
-import { Container } from './styles'
+import { Container } from "./styles";
 
-import reactIcon from '../../assets/react-icon.svg'
-import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
+import reactIcon from "../../assets/react-icon.svg";
+import linkedin from "../../assets/linkedin.svg";
+import githubIcon from "../../assets/github.svg";
 // import whatsapp from '../../assets/whatsapp.svg'
-import instagramIcon from '../../assets/instagram.svg'
+import instagramIcon from "../../assets/instagram.svg";
 // import discordIcon from '../../assets/discord.png'
-import facebookIcon from '../../assets/facebook.svg'
-import favicon from "../../assets/favicon-32x32.png"
+import facebookIcon from "../../assets/facebook.svg";
+import favicon from "../../assets/favicon-32x32.png";
 
 export function Footer() {
   return (
@@ -24,7 +24,7 @@ export function Footer() {
       </div>
 
       <div className="social-media">
-      <a
+        <a
           href="https://www.facebook.com/janos.balogh.5205"
           target="_blank"
           rel="noreferrer"
@@ -38,11 +38,7 @@ export function Footer() {
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
-        <a
-          href="https://github.com/janos870"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/janos870" target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="GitHub" />
         </a>
         {/* <a
@@ -59,8 +55,7 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-     
       </div>
     </Container>
-  )
+  );
 }

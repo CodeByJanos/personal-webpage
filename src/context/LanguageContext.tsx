@@ -1,5 +1,4 @@
 import { createContext, useContext, ReactNode } from "react";
-import { setLanguage as setI18nLanguage } from "../i18n";
 import { useState } from "react";
 
 interface LanguageContextType {
@@ -7,14 +6,15 @@ interface LanguageContextType {
   switchLanguage: (lang: "en" | "hu") => void;
 }
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+const LanguageContext = createContext<LanguageContextType | undefined>(
+  undefined
+);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<"en" | "hu">("en");
 
   const switchLanguage = (lang: "en" | "hu") => {
     setLanguage(lang);
-    setI18nLanguage(lang);
   };
 
   return (
@@ -31,5 +31,3 @@ export function useLanguage(): LanguageContextType {
   }
   return context;
 }
-
-

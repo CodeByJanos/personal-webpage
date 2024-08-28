@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import { translate } from "../../i18n";
+import { useTranslate } from "../../i18n";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -14,6 +14,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import profileImg from "../../assets/profile1.jpg";
 
 export function About() {
+  const translate = useTranslate();
   return (
     <Container id="about">
       <div className="about-text">

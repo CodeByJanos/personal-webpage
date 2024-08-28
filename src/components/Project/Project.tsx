@@ -1,11 +1,12 @@
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import { data } from "./data";
-import { translate } from "../../i18n";
+import { useTranslate } from "../../i18n";
 import { useLanguage } from "../../context/LanguageContext";
 
 export function Project() {
   const { language } = useLanguage();
+  const translate = useTranslate();
   return (
     <Container id="project">
       <h2>{translate("project.title")}</h2>
@@ -32,4 +33,3 @@ export function Project() {
     </Container>
   );
 }
-

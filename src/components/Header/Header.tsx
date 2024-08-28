@@ -3,8 +3,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState, useEffect } from "react";
 import cv from "../../assets/cv_hu_janosbalogh.pdf";
-import { useLanguage } from "../../context/LanguageContext"; 
-import { translate } from "../../i18n";
+import { useLanguage } from "../../context/LanguageContext";
+import { useTranslate } from "../../i18n";
 
 export function Header() {
   const { language, switchLanguage } = useLanguage();
@@ -12,6 +12,8 @@ export function Header() {
   const [isLightTheme, setLightTheme] = useState(
     localStorage.getItem("isLightTheme") === "true"
   );
+
+  const translate = useTranslate();
 
   function toggleTheme() {
     setLightTheme((prevTheme) => !prevTheme);
@@ -63,9 +65,9 @@ export function Header() {
           </a>
           <button
             className="switch-language-button"
-            onClick={() => switchLanguage(language === 'en' ? 'hu' : 'en')}
+            onClick={() => switchLanguage(language === "en" ? "hu" : "en")}
           >
-            {language === 'en' ? 'HU' : 'EN'}
+            {language === "en" ? "HU" : "EN"}
           </button>
         </nav>
 
@@ -82,5 +84,3 @@ export function Header() {
     </Container>
   );
 }
-
-

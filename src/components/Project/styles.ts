@@ -25,7 +25,7 @@ export const Container = styled.section`
 
   .project-link {
     color: #fff;
-    text-decoration: 
+    text-decoration: none;
     transition: 0.3s;
   }
 
@@ -43,7 +43,7 @@ export const Container = styled.section`
 
   .project-card img {
     width: 100%;
-    height: 60%; 
+    height: 60%;
     object-fit: cover;
     transition: opacity 0.3s ease-in-out;
   }
