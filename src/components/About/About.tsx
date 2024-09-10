@@ -11,7 +11,11 @@ import pythonIcon from "../../assets/python.svg";
 import mongodbIcon from "../../assets/mongodb.svg";
 import tailwindIcon from "../../assets/tailwind-css.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+<<<<<<< HEAD
 import profileImg from "../../assets/profile1.jpg";
+=======
+import profileImg from "../../assets/profile.png";
+>>>>>>> e1f2748 (update profile pic and cv)
 
 export function About() {
   const translate = useTranslate();

@@ -2,7 +2,11 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState, useEffect } from "react";
+<<<<<<< HEAD
 import cv from "../../assets/cv_hu_janosbalogh.pdf";
+=======
+import cv from "../../assets/cv-hu-janosbalogh.pdf";
+>>>>>>> e1f2748 (update profile pic and cv)
 import { useLanguage } from "../../context/LanguageContext";
 import { useTranslate } from "../../i18n";
 
