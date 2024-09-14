@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.46961403.css",
-    "main.js": "/static/js/main.33118720.js",
+    "main.js": "/static/js/main.53f76b8a.js",
     "static/media/webdevs-cover.png": "/static/media/webdevs-cover.caf8b3ff7a47666ad566.png",
     "static/media/auth_project.png": "/static/media/auth_project.580330c33b393a6a0807.png",
     "static/media/pass_maneger_cover.png": "/static/media/pass_maneger_cover.521a6c7756fb64271c22.png",
     "static/media/profile.png": "/static/media/profile.4d8a8f843990b1d4acb5.png",
     "static/media/illustration1.png": "/static/media/illustration1.469c523ffdacab560c85.png",
-    "static/media/cv-hu-janosbalogh.pdf": "/static/media/cv-hu-janosbalogh.3f9a304f3ec0354d3051.pdf",
+    "static/media/cv-hu-janosbalogh.pdf": "/static/media/cv-hu-janosbalogh.3a51e5f0c32c8869dc21.pdf",
     "static/media/sass-icon.svg": "/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
     "static/media/node-icon.svg": "/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
     "static/media/typescript-icon.svg": "/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
@@ -28,10 +28,10 @@
     "static/media/gmail.svg": "/static/media/gmail.f7f4f60d3b0f8df2280205cb98b2b5ae.svg",
     "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.46961403.css.map": "/static/css/main.46961403.css.map",
-    "main.33118720.js.map": "/static/js/main.33118720.js.map"
+    "main.53f76b8a.js.map": "/static/js/main.53f76b8a.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.33118720.js"
+    "static/js/main.53f76b8a.js"
   ]
 }
