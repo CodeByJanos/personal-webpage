@@ -1,6 +1,6 @@
 import authProjectImg from "../../assets/auth_project.png";
 import blogProjectImg from "../../assets/webdevs-cover.png";
-import passManegerImg from "../../assets/pass_maneger_cover.png";
+import worldCover from "../../assets/world-cover.png";
 
 export const data = [
   {
@@ -31,14 +31,14 @@ export const data = [
 
   {
     name: {
-      en: "PASSWORD MANAGER",
-      hu: "JELSZÓKEZELŐ"
+      en: "WORLD TRACKER",
+      hu: "VILÁG TÉRKÉP NYOMONKÖVETŐ"
     },
     description: {
-      en: "This is a useful offline app with a Python Tkinter interface. It's my second non-web service project. Users can store email addresses and generated passwords for their websites, ensuring security and easy credential management.",
-      hu: "Ez egy hasznos offline alkalmazás Python Tkinter felülettel. Ez a második nem webszolgáltatásos projektem. A felhasználók tárolhatják az e-mail címeket és a generált jelszavakat a webhelyeikhez, biztosítva ezzel a biztonságot és a könnyű hitelesítő adatok kezelését."
+      en: "The World Tracker is a simple web application built with Node.js, Express, and SQL. It allows users to highlight countries on an SVG world map by adding them to a list. The map dynamically updates, coloring the selected country to make it easy to see its location. The app is versatile and user-friendly, designed for anyone who wants a clear and easy way to track countries on the world map.",
+      hu: "The World Tracker is a simple web application built with Node.js, Express, and SQL. It allows users to highlight countries on an SVG world map by adding them to a list. The map dynamically updates, coloring the selected country to make it easy to see its location. The app is versatile and user-friendly, designed for anyone who wants a clear and easy way to track countries on the world map."
     },
-    img: passManegerImg,
+    img: worldCover,
     url: "https://github.com/janos870/password-maneger"
   },
 ];
