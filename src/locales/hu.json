@@ -13,8 +13,8 @@
     },
     "about": {
       "title": "Rólam",
-      "intro": "Szia! Engedd meg, hogy bemutatkozzam: Janos vagyok, és webfejlesztésben szakosodtam. Az online világ formálása és a felhasználói élmények javítása a szenvedélyem. Ebben a dinamikus területen olyan technológiákat használok, mint a JavaScript alapú frontend és backend fejlesztés, különös figyelmet fordítva a React keretrendre.",
-      "journey": "Két éve kezdtem el a programozói utamat, és azóta szenvedéllyel fejlesztem a készségeimet. A Python és a Django webkeretrend is az eszköztáramban van, lehetővé téve számomra, hogy izgalmas és funkcionális webalkalmazásokat készítsek.",
+      "intro": "Szia! Engedd meg, hogy bemutatkozzam: Janos vagyok, és webfejlesztésben szakosodtam. Az online világ formálása és a felhasználói élmények javítása a szenvedélyem. Ebben a dinamikus területen olyan technológiákat használok, mint a JavaScript alapú frontend és backend fejlesztés, különös figyelmet fordítva a React könyvtárhoz.",
+      "journey": "Két éve kezdtem el a programozói utamat, és azóta szenvedéllyel fejlesztem a készségeimet. A Python és a Django webkeretredszer is az eszköztáramban van, lehetővé téve számomra, hogy izgalmas és funkcionális webalkalmazásokat készítsek.",
       "tech": "Az információs technológia világa folyamatosan fejlődik, és nyitott vagyok az új lehetőségek felfedezésére. Élvezem a tanulást és a kihívásokkal való megküzdést, hogy naprakész maradjak a legújabb technológiák terén.",
       "skills": "Itt vannak a főbb készségeim:"
     },
