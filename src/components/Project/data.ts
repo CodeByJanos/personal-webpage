@@ -13,7 +13,7 @@ export const data = [
       hu: "Ez a projekt a MERN stack használatával készült, és egy átfogó hitelesítési rendszert tartalmaz, amely lehetővé teszi a felhasználók számára profiljaik frissítését és törlését. Továbbá, a Google-hitelesítés integrálva van, hogy növelje a felhasználói bejelentkezési biztonságot és kényelmet."
     },
     img: authProjectImg,
-    url: "https://mern-auth-zmyu.onrender.com"
+    url: "https://github.com/janos870/MERN-AUTH"
   },
   
   {

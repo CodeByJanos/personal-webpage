@@ -11,7 +11,7 @@ export function Project() {
     <Container id="project">
       <h2>{translate("project.title")}</h2>
       <h3 className="project-intro">{translate("project.intro")}</h3>
-      <ScrollAnimation className="projects" animateIn="flipInX">
+      <ScrollAnimation className="projects" animateIn="zoomIn">
         {data.map((project, index) => (
           <a
             href={project.url}
