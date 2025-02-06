@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.46961403.css",
-    "main.js": "/static/js/main.c0ce969c.js",
+    "main.js": "/static/js/main.b4572d80.js",
     "static/media/webdevs-cover.png": "/static/media/webdevs-cover.caf8b3ff7a47666ad566.png",
-    "static/media/profile.png": "/static/media/profile.4839cc1eafe39b21ca8b.png",
     "static/media/illustration3.png": "/static/media/illustration3.73ad955f4f8a0101e586.png",
     "static/media/world-cover.png": "/static/media/world-cover.9394e8ded9b45fbb5194.png",
     "static/media/auth_project.png": "/static/media/auth_project.580330c33b393a6a0807.png",
     "static/media/cv-hu-janosbalogh.pdf": "/static/media/cv-hu-janosbalogh.026460c852c5e5429a38.pdf",
+    "static/media/profile.jpg": "/static/media/profile.a80ad9fc5acfac4d1275.jpg",
     "static/media/sass-icon.svg": "/static/media/sass-icon.3572f53ec4f404e921a9e8193cdb70fe.svg",
     "static/media/node-icon.svg": "/static/media/node-icon.cc3d45a160579a330a5c17cc2c8f1407.svg",
     "static/media/typescript-icon.svg": "/static/media/typescript-icon.f3bc0fd998dea6b1266965436af97a49.svg",
     "static/media/bootstrap-icon.svg": "/static/media/bootstrap-icon.09b773cc0f17dc078cc9864e5e8006ba.svg",
     "static/media/react-icon.svg": "/static/media/react-icon.a010f287ea79ad0673b610a223faa951.svg",
+    "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
     "static/media/python.svg": "/static/media/python.d32e17a67e47af5af825d688825deb85.svg",
-    "index.html": "/index.html",
     "static/media/phone-icon.svg": "/static/media/phone-icon.fc7195139d684fa2f6bb03b8b9816095.svg",
     "static/media/github.svg": "/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
     "static/media/html-icon.svg": "/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
@@ -28,10 +28,10 @@
     "static/media/gmail.svg": "/static/media/gmail.f7f4f60d3b0f8df2280205cb98b2b5ae.svg",
     "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.46961403.css.map": "/static/css/main.46961403.css.map",
-    "main.c0ce969c.js.map": "/static/js/main.c0ce969c.js.map"
+    "main.b4572d80.js.map": "/static/js/main.b4572d80.js.map"
   },
   "entrypoints": [
     "static/css/main.46961403.css",
-    "static/js/main.c0ce969c.js"
+    "static/js/main.b4572d80.js"
   ]
 }
