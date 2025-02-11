@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import cv from "../../assets/cv-hu-janosbalogh.pdf";
 import { useLanguage } from "../../context/LanguageContext";
 import { useTranslate } from "../../i18n";
+import logo from "../../assets/jb_logo.png";
 
 export function Header() {
   const { language, switchLanguage } = useLanguage();
@@ -33,8 +34,12 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>Janos</span>
-          <span>Balogh</span>
+          <img src={logo} alt="logo" />
+          <div>
+            <span>Janos</span>
+            <span>Balogh</span>
+          </div>
+
         </HashLink>
 
         <input

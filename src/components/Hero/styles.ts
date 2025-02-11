@@ -46,7 +46,7 @@ export const Container = styled.section`
 
   .hero-image {
     img {
-      width: 100%;
+      width: 500px;
     }
   }
 

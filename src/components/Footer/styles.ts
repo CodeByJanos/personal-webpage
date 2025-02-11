@@ -15,6 +15,7 @@ export const Container = styled.footer`
     gap: 10px;
     img {
       width: 4rem;
+      border-radius: 50%;
     }
   }
 

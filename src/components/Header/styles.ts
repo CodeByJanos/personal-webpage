@@ -16,6 +16,18 @@ export const Container = styled.header`
   width: 100vw;
   z-index: 1000;
 
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
   nav {
     display: flex;
     align-items: center;
