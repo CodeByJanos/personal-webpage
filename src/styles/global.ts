@@ -99,6 +99,10 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  h1 , h2 , h3 , p {
+    letter-spacing: 0.1rem;
+  }
+
   button, .button{
     border: none;
     cursor: pointer;

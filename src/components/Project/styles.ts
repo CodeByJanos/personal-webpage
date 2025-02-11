@@ -15,7 +15,7 @@ export const Container = styled.section`
     margin: 30px auto;
     opacity: 0.7;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
 
   .projects {
