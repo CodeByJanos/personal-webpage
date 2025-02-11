@@ -1,14 +1,16 @@
 import { createGlobalStyle } from "styled-components";
 
+// --green: #00A9FF;
+
 export const GlobalStyle = createGlobalStyle`
 
   :root{
-    --pink: #E31F71;
+    --pink: #6A1E55;
     --black: #212121;
-    --green: #00A9FF;
+    --green: #55CC75;
     --blue: #016fb9;
-    scroll-padding-top: 10rem;
 
+    scroll-padding-top: 10rem;
 
     &.light{
 
@@ -81,15 +83,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     -webkit-font-smoothing: antialiased;
     background-color: var(--black);
     color: #FFFF;
   }
 
   body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 400;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: 300;
   }
 
   a{
@@ -118,8 +121,5 @@ export const GlobalStyle = createGlobalStyle`
   .logo{
     font-size: 3rem;
     color: #FFFF;
-    // &::first-letter{
-    //   color: var(--green);
-    // }
   }
 `;

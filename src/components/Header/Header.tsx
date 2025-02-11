@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import cv from "../../assets/cv-hu-janosbalogh.pdf";
 import { useLanguage } from "../../context/LanguageContext";
 import { useTranslate } from "../../i18n";
-import logo from "../../assets/jb_logo.png";
+import logo from "../../assets/logo.png"
 
 export function Header() {
   const { language, switchLanguage } = useLanguage();

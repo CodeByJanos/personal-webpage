@@ -35,7 +35,7 @@ export const Container = styled.header`
     a {
       color: #ffff;
       padding: 0.6rem;
-      font-family: "Red Hat Display", sans-serif;
+      font-size: 1.5rem;
       font-weight: 500;
       text-transform: uppercase;
       transition: filter 0.25s;

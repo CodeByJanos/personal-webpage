@@ -7,11 +7,12 @@ export const Container = styled.section`
   gap: 8rem;
   background: rgba(0, 0, 0, 0);
   .hero-text {
+    
     & > p {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
     }
     h1 {
-      font-size: 7rem;
+      font-size: 5rem;
     }
 
     h3 {

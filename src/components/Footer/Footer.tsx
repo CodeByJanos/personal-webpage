@@ -7,7 +7,7 @@ import githubIcon from "../../assets/github.svg";
 import instagramIcon from "../../assets/instagram.svg";
 // import discordIcon from '../../assets/discord.png'
 import facebookIcon from "../../assets/facebook.svg";
-import logo from "../../assets/jb_logo.png"
+import logo from "../../assets/logo.png"
 
 export function Footer() {
   return (
