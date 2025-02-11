@@ -40,6 +40,7 @@ export const GlobalStyle = createGlobalStyle`
       }
 
       .project-card {
+        background-color:rgb(246, 246, 246);
         color: var(--black);
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
       }
@@ -101,6 +102,7 @@ export const GlobalStyle = createGlobalStyle`
 
   h1 , h2 , h3 , p {
     letter-spacing: 0.1rem;
+    line-height: 25px;
   }
 
   button, .button{
