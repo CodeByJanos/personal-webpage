@@ -13,7 +13,6 @@ export const data = [
       hu: "Ez a projekt a MERN stack használatával készült, és egy átfogó hitelesítési rendszert tartalmaz, amely lehetővé teszi a felhasználók számára profiljaik frissítését és törlését. Továbbá, a Google-hitelesítés integrálva van, hogy növelje a felhasználói bejelentkezési biztonságot és kényelmet."
     },
     img: authProjectImg,
-    url: "https://github.com/janos870/MERN-AUTH"
   },
   
   {
@@ -26,7 +25,6 @@ export const data = [
       hu: "Ez a projekt egy dinamikus webfejlesztői portál, amely Python Flask keretrendszerrel készült. A portál lehetőséget biztosít a felhasználók számára, hogy hozzáférjenek különböző webfejlesztési erőforrásokhoz, oktatóanyagokhoz, valamint saját profiljukat kezeljék. A Flask rugalmas és könnyű architektúrája lehetővé tette a skálázható és biztonságos alkalmazásfejlesztést, beleértve az autentikációs rendszert és az adatbázis integrációt is. A felhasználói élmény fokozására modern frontend technológiák is implementálásra kerültek."
     },
     img: blogProjectImg,
-    url: "https://github.com/janos870/webdevs.git"
   },
 
   {
@@ -39,7 +37,6 @@ export const data = [
       hu: "The World Tracker is a simple web application built with Node.js, Express, and SQL. It allows users to highlight countries on an SVG world map by adding them to a list. The map dynamically updates, coloring the selected country to make it easy to see its location. The app is versatile and user-friendly, designed for anyone who wants a clear and easy way to track countries on the world map."
     },
     img: worldCover,
-    url: "https://github.com/janos870/world-tracker.git"
   },
 ];
 
